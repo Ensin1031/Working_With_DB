@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f4954d-bd55-4ca1-884d-d8b0fddf0270" name="Changes" comment="1">
-      <change beforePath="$PROJECT_DIR$/goods.info" beforeDir="false" />
+    <list default="true" id="a0f4954d-bd55-4ca1-884d-d8b0fddf0270" name="Changes" comment="main">
+      <change beforePath="$PROJECT_DIR$/alchemy/1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643709296223</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="main">
+      <created>1643709437559</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643709437559</updated>
+    </task>
+    <task id="LOCAL-00004" summary="main">
+      <created>1643709442578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643709442578</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="main" />
+    <option name="LAST_COMMIT_MESSAGE" value="main" />
   </component>
 </project>
