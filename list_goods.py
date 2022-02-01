@@ -47,3 +47,7 @@ list_goods = [
     'морковь 1кг:55:50\n',
     'яблоки Новая Зеландия 1кг:60:120'
 ]
+
+with open('goods.info', 'w', encoding='utf-8') as goods:
+    for line in list_goods:
+        goods.write(line)
