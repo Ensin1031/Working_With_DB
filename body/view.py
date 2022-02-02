@@ -3,6 +3,6 @@
 Работаем с Tkinter
 '''
 
-from model import create_good_from_list
+from body.model import create_good_from_list
 
 create_good_from_list(['teryaki', 50, 100])

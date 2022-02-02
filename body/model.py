@@ -5,6 +5,20 @@
 from sqlalchemy import create_engine, Integer, String, Column, func
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
+from body.list_goods import list_goods
+
+
+def primary_data():
+    """The function creates a file with initial data and enters them into the database."""
+    with open('body/goods.info', 'w', encoding='utf-8') as goods:
+        for line in list_goods:
+            goods.write(line)
+    with open('body/goods.info', 'r', encoding='utf-8') as goods:
+        for line in goods.readlines():
+            list_good = line.split(':')
+            list_good[1], list_good[2] = int(list_good[1]), int(list_good[2])
+            create_good_from_list(list_good)
+
 
 engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", echo=True, future=True)
 Base = declarative_base()
@@ -46,7 +60,7 @@ def delete_goods_from_list(name_to_delete):
         return f'INFO. product named "{name_to_delete}" was successfully removed from the list'
 
 
-def max_min_goods_on_the_list(value=None):
+def max_min_goods_on_the_list():
     """A function that returns an object with max. and min. at the price."""
     session = Session(bind=engine)
 
@@ -62,21 +76,3 @@ def show_the_entire_list():
 
     all_quary = session.query(Goods).all()
     return all_quary
-
-
-# print('-------------------')
-# # create_good_from_list(['royal', 100, 2])
-# create_good_from_list(['chest', 3, 500])
-# # session = Session(bind=engine)
-# # session.add(Goods(name='att', price=1, count=2))
-# # session.commit()
-# # session = Session(bind=engine)
-# # session.add(Goods(name='ipp', price=3, count=4))
-# # session.commit()
-# # print('---------------')
-# for i in show_the_entire_list():
-#     print(i.name, i.price)
-# print('--------------')
-# # print(delete_goods_from_list('chest'))
-# print('-----------------')
-# print(max_min_goods_on_the_list())
