@@ -44,6 +44,7 @@ def create_good_from_list(list_of_good):
 
     session.add(Goods(name=list_of_good[0], price=list_of_good[1], count=list_of_good[2]))
     session.commit()
+    return f'INFO. An entry named "{list_of_good[0]}" has been added.'
 
 
 def delete_goods_from_list(name_to_delete):
@@ -54,8 +55,8 @@ def delete_goods_from_list(name_to_delete):
     except Exception as e_:
         return f'INFO. Error. product named "{name_to_delete}" is not listed.\n{e_}'
     else:
-        for i in query_for_delete:
-            session.delete(i)
+        for row in query_for_delete:
+            session.delete(row)
         session.commit()
         return f'INFO. product named "{name_to_delete}" was successfully removed from the list'
 
@@ -76,3 +77,10 @@ def show_the_entire_list():
 
     all_quary = session.query(Goods).all()
     return all_quary
+
+
+def clean_db():
+    """Function of complete cleaning of the database"""
+    for row in show_the_entire_list():
+        delete_goods_from_list(row.name)
+    return 'INFO. Now the database is completely empty.'
