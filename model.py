@@ -2,7 +2,7 @@
 Работа с данными, хранение данных, получение данных
 '''
 
-from sqlalchemy import create_engine, Integer, String, Column
+from sqlalchemy import create_engine, Integer, String, Column, func
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
 
@@ -24,46 +24,59 @@ connection = engine.connect()
 Base.metadata.create_all(engine)
 
 
-def create_goods_from_list(list_of_goods):
-    """A function that creates products from a list of products."""
+def create_good_from_list(list_of_good):
+    """A function that creates products from a list."""
     session = Session(bind=engine)
 
-    for good in list_of_goods:
-        good = Goods(
-            name=good['name'],
-            price=good['price'],
-            count=good['count']
-        )
-        session.add(good)
-
+    session.add(Goods(name=list_of_good[0], price=list_of_good[1], count=list_of_good[2]))
     session.commit()
 
 
-def delete_goods_from_list(list_of_goods):
-    """Removing a product from the list by name."""
+def delete_goods_from_list(name_to_delete):
+    """Function to remove a product from the list by name."""
     session = Session(bind=engine)
+    try:
+        query_for_delete = session.query(Goods).filter(Goods.name == name_to_delete).all()
+    except Exception as e_:
+        return f'INFO. Error. product named "{name_to_delete}" is not listed.\n{e_}'
+    else:
+        for i in query_for_delete:
+            session.delete(i)
+        session.commit()
+        return f'INFO. product named "{name_to_delete}" was successfully removed from the list'
 
-    for good in list_of_goods:
-        good = Goods(
-            name=good['name'],
-            price=good['price'],
-            count=good['count']
-        )
-        session.add(good)
 
-    session.commit()
-
-
-def max_min_goods_on_the_list(list_of_goods):
+def max_min_goods_on_the_list(value=None):
     """A function that returns an object with max. and min. at the price."""
     session = Session(bind=engine)
 
-    for good in list_of_goods:
-        good = Goods(
-            name=good['name'],
-            price=good['price'],
-            count=good['count']
-        )
-        session.add(good)
+    max_quary = session.query(func.max(Goods.price)).all()
+    min_quary = session.query(func.min(Goods.price)).all()
 
-    session.commit()
+    return f'price min.: {min_quary[0][0]}, price max.: {max_quary[0][0]}'
+
+
+def show_the_entire_list():
+    """Function to show the entire list."""
+    session = Session(bind=engine)
+
+    all_quary = session.query(Goods).all()
+    return all_quary
+
+
+# print('-------------------')
+# # create_good_from_list(['royal', 100, 2])
+# create_good_from_list(['chest', 3, 500])
+# # session = Session(bind=engine)
+# # session.add(Goods(name='att', price=1, count=2))
+# # session.commit()
+# # session = Session(bind=engine)
+# # session.add(Goods(name='ipp', price=3, count=4))
+# # session.commit()
+# # print('---------------')
+# for i in show_the_entire_list():
+#     print(i.name, i.price)
+# print('--------------')
+# # print(delete_goods_from_list('chest'))
+# print('-----------------')
+# print(max_min_goods_on_the_list())
