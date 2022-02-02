@@ -83,4 +83,4 @@ def clean_db():
     """Function of complete cleaning of the database"""
     for row in show_the_entire_list():
         delete_goods_from_list(row.name)
-    return 'INFO. Now the database is completely empty.'
+    return 'INFO. The database has been completely cleared.'
