@@ -1,3 +1,4 @@
+# coding=UTF-8
 '''
 Работа с данными, хранение данных, получение данных
 '''
@@ -99,5 +100,5 @@ def db_in_json():
                 }
         })
     with open('../db_in_json.json', 'w', encoding="utf-8") as file:
-        json.dump(pre_json_list, file, indent=4)
+        json.dump(pre_json_list, file, indent=4, ensure_ascii=False)
     return 'INFO. JSON file written.'
