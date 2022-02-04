@@ -6,6 +6,7 @@ from sqlalchemy import create_engine, Integer, String, Column, func
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
 from body.list_goods import list_goods
+import json
 
 
 def primary_data():
@@ -68,7 +69,7 @@ def max_min_goods_on_the_list():
     max_quary = session.query(func.max(Goods.price)).all()
     min_quary = session.query(func.min(Goods.price)).all()
 
-    return f'price min.: {min_quary[0][0]}, price max.: {max_quary[0][0]}'
+    return [max_quary[0][0], min_quary[0][0]]
 
 
 def show_the_entire_list():
@@ -84,3 +85,19 @@ def clean_db():
     for row in show_the_entire_list():
         delete_goods_from_list(row.name)
     return 'INFO. The database has been completely cleared.'
+
+def db_in_json():
+    data_json = show_the_entire_list()
+    pre_json_list = []
+    for i in data_json:
+        pre_json_list.append({
+            "Good":
+                {
+                    "name": i.name,
+                    "price": i.price,
+                    "count": i.count
+                }
+        })
+    with open('../db_in_json.json', 'w', encoding="utf-8") as file:
+        json.dump(pre_json_list, file, indent=4)
+    return 'INFO. JSON file written.'
