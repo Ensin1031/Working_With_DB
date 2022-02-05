@@ -1,4 +1,3 @@
-# coding=UTF-8
 '''
 Работа с данными, хранение данных, получение данных
 '''
@@ -8,6 +7,12 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
 from body.list_goods import list_goods
 import json
+import logging
+
+logger = logging.getLogger('add.db')
+
+engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", echo=True, future=True)
+Base = declarative_base()
 
 
 def primary_data():
@@ -22,10 +27,6 @@ def primary_data():
             create_good_from_list(list_good)
 
 
-engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", echo=True, future=True)
-Base = declarative_base()
-
-
 class Goods(Base):
     """Describe the products table"""
     __tablename__ = 'goods'
@@ -34,6 +35,8 @@ class Goods(Base):
     name = Column('name', String(250), nullable=False)
     price = Column('price', Integer, nullable=False)
     count = Column('count', Integer, nullable=False)
+
+    logger = logging.getLogger('Table is create')
 
 
 connection = engine.connect()
@@ -46,6 +49,7 @@ def create_good_from_list(list_of_good):
 
     session.add(Goods(name=list_of_good[0], price=list_of_good[1], count=list_of_good[2]))
     session.commit()
+    logger.info(f'An entry named "{list_of_good[0]}" has been added.')
     return f'INFO. An entry named "{list_of_good[0]}" has been added.'
 
 
@@ -70,7 +74,12 @@ def max_min_goods_on_the_list():
     max_quary = session.query(func.max(Goods.price)).all()
     min_quary = session.query(func.min(Goods.price)).all()
 
+    logger.info("Была запущена функция мах-мин")
     return [max_quary[0][0], min_quary[0][0]]
+
+def max_min_log():
+    logger.info("Была запущена функция мах-мин")
+
 
 
 def show_the_entire_list():
@@ -86,6 +95,7 @@ def clean_db():
     for row in show_the_entire_list():
         delete_goods_from_list(row.name)
     return 'INFO. The database has been completely cleared.'
+
 
 def db_in_json():
     data_json = show_the_entire_list()

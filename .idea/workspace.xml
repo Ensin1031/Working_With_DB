@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f4954d-bd55-4ca1-884d-d8b0fddf0270" name="Changes" comment="main">
+      <change afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Working_With_DB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Working_With_DB.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/body/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/body/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_in_json.json" beforeDir="false" afterPath="$PROJECT_DIR$/db_in_json.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/body/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/body/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/work_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/work_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
       <recent name="C:\GitHub_Desktop\Working_With_DB\body" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.model (1)">
+  <component name="RunManager" selected="Python.main">
     <configuration name="controller (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Working_With_DB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.model (1)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Python tests in work_test.py" />
+        <item itemvalue="Python.model (1)" />
         <item itemvalue="Python tests.Python tests for work_test.MaxMinTest" />
         <item itemvalue="Python.controller (1)" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643967057399</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="main">
+      <created>1643970528106</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1643970528106</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
