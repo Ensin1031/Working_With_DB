@@ -5,29 +5,29 @@
 from sqlalchemy import create_engine, Integer, String, Column, func
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
-from body.list_goods import list_goods
+#from body.list_goods import list_goods
 import json
 import logging
 
 logger = logging.getLogger('main.' + __name__)
 
-# engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", echo=True, future=True)
-engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", future=True)
+# engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", echo=True, future=True, max_overflow=20)
+engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", future=True, max_overflow=20)
 Base = declarative_base()
 
-
-def primary_data():
-    """The function creates a file with initial data and enters them into the database."""
-    logger.info('Data enters in DB')
-    with open('body/goods.info', 'w', encoding='utf-8') as goods:
-        for line in list_goods:
-            goods.write(line)
-    with open('body/goods.info', 'r', encoding='utf-8') as goods:
-        for line in goods.readlines():
-            list_good = line.split(':')
-            list_good[1], list_good[2] = int(list_good[1]), int(list_good[2])
-            create_good_from_list(list_good)
-
+#
+# def primary_data():
+#     """The function creates a file with initial data and enters them into the database."""
+#     logger.info('Data enters in DB')
+#     with open('body/goods.info', 'w', encoding='utf-8') as goods:
+#         for line in list_goods:
+#             goods.write(line)
+#     with open('body/goods.info', 'r', encoding='utf-8') as goods:
+#         for line in goods.readlines():
+#             list_good = line.split(':')
+#             list_good[1], list_good[2] = int(list_good[1]), int(list_good[2])
+#             create_good_from_list(list_good)
+#
 
 class Goods(Base):
     """Describe the products table"""
@@ -38,7 +38,7 @@ class Goods(Base):
     price = Column('price', Integer, nullable=False)
     count = Column('count', Integer, nullable=False)
 
-    logger.info('Table is create')
+    logger.info(f'Table "{__tablename__}" is create')
 
 
 connection = engine.connect()
@@ -49,24 +49,29 @@ def create_good_from_list(list_of_good):
     """A function that creates products from a list."""
     session = Session(bind=engine)
 
-    session.add(Goods(name=list_of_good[0], price=list_of_good[1], count=list_of_good[2]))
-    session.commit()
-    logger.info(f'An entry named "{list_of_good[0]}" has been added.')
-    return f'INFO. An entry named "{list_of_good[0]}" has been added.'
+    query = session.query(Goods).filter(Goods.name == list_of_good[0]).all()
+    if query:
+        logger.info(f'Error. Name "{list_of_good[0]}" is in the database.')
+    else:
+        session.add(Goods(name=list_of_good[0], price=list_of_good[1], count=list_of_good[2]))
+        session.commit()
+        logger.info(f'An entry named "{list_of_good[0]}" has been added in DB.')
 
 
 def delete_goods_from_list(name_to_delete):
     """Function to remove a product from the list by name."""
     session = Session(bind=engine)
-    try:
-        query_for_delete = session.query(Goods).filter(Goods.name == name_to_delete).all()
-    except Exception as e_:
-        return f'INFO. Error. product named "{name_to_delete}" is not listed.\n{e_}'
-    else:
+
+    query_for_delete = session.query(Goods).filter(Goods.name == name_to_delete).all()
+    if query_for_delete:
         for row in query_for_delete:
             session.delete(row)
         session.commit()
-        return f'INFO. product named "{name_to_delete}" was successfully removed from the list'
+        logger.info(f'Product named "{name_to_delete}" was successfully removed from the list')
+        return True
+    else:
+        logger.info(f'Error. product named "{name_to_delete}" is not listed.')
+        return False
 
 
 def max_min_goods_on_the_list():
@@ -111,3 +116,4 @@ def db_in_json():
     with open('../db_in_json.json', 'w', encoding="utf-8") as file:
         json.dump(pre_json_list, file, indent=4, ensure_ascii=False)
     return 'INFO. JSON file written.'
+

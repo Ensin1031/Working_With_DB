@@ -25,7 +25,7 @@ LOGGING_CONF = {
         },
         "file": {
             "class": "logging.handlers.RotatingFileHandler",
-            "level": "DEBUG",
+            "level": "INFO",
             "formatter": "verbose",
             "filename": "logs/log.log",
             "encoding": "utf-8",
