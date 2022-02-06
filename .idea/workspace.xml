@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f4954d-bd55-4ca1-884d-d8b0fddf0270" name="Changes" comment="main">
-      <change afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Working_With_DB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Working_With_DB.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictConfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/body/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/body/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/body/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/body/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/work_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/work_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +51,14 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\GitHub_Desktop\Working_With_DB" />
+      <recent name="C:\GitHub_Desktop\Working_With_DB\logger" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHub_Desktop\Working_With_DB\body" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="controller (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Working_With_DB" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,11 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/body" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logger" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/body/controller.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logger/logger.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,10 +152,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.logger" />
         <item itemvalue="Python tests.Python tests in work_test.py" />
         <item itemvalue="Python.model (1)" />
         <item itemvalue="Python tests.Python tests for work_test.MaxMinTest" />
-        <item itemvalue="Python.controller (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643970528106</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="main">
+      <created>1644035437479</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644035437479</updated>
+    </task>
+    <task id="LOCAL-00016" summary="main">
+      <created>1644035441676</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1644035441676</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -9,14 +9,16 @@ from body.list_goods import list_goods
 import json
 import logging
 
-logger = logging.getLogger('add.db')
+logger = logging.getLogger('main.' + __name__)
 
-engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", echo=True, future=True)
+# engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", echo=True, future=True)
+engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", future=True)
 Base = declarative_base()
 
 
 def primary_data():
     """The function creates a file with initial data and enters them into the database."""
+    logger.info('Data enters in DB')
     with open('body/goods.info', 'w', encoding='utf-8') as goods:
         for line in list_goods:
             goods.write(line)
@@ -36,7 +38,7 @@ class Goods(Base):
     price = Column('price', Integer, nullable=False)
     count = Column('count', Integer, nullable=False)
 
-    logger = logging.getLogger('Table is create')
+    logger.info('Table is create')
 
 
 connection = engine.connect()
@@ -77,16 +79,13 @@ def max_min_goods_on_the_list():
     logger.info("Была запущена функция мах-мин")
     return [max_quary[0][0], min_quary[0][0]]
 
-def max_min_log():
-    logger.info("Была запущена функция мах-мин")
-
-
 
 def show_the_entire_list():
     """Function to show the entire list."""
     session = Session(bind=engine)
 
     all_quary = session.query(Goods).all()
+    logger.info("Show to the entire list.")
     return all_quary
 
 

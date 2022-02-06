@@ -1,0 +1,262 @@
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - Table is create
+06:02:2022 - 03:37:52 - main.__main__: -> DEBUG - Start program
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - Data enters in DB
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "масло сливочное" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added.
+06:02:2022 - 03:37:52 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added.
+06:02:2022 - 03:37:53 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added.
+06:02:2022 - 03:37:53 - main.__main__: -> DEBUG - Stop program
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - Table is create
+06:02:2022 - 03:43:29 - main.__main__: -> DEBUG - Start program
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - Data enters in DB
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "масло сливочное" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added.
+06:02:2022 - 03:43:29 - main.body.model: -> INFO - Show to the entire list.
+06:02:2022 - 03:43:29 - main.__main__: -> DEBUG - Stop program
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - Table is create
+06:02:2022 - 03:45:29 - main.__main__: -> DEBUG - Start program
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - Data enters in DB
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "масло сливочное" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - Show to the entire list.
+06:02:2022 - 03:45:29 - main.body.model: -> INFO - Была запущена функция мах-мин
+06:02:2022 - 03:45:29 - main.__main__: -> DEBUG - Stop program
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - Table is create
+06:02:2022 - 03:46:16 - main.__main__: -> DEBUG - Start program
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - Data enters in DB
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "масло сливочное" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - Show to the entire list.
+06:02:2022 - 03:46:16 - main.body.model: -> INFO - Была запущена функция мах-мин
+06:02:2022 - 03:46:16 - main.__main__: -> DEBUG - Stop program
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - Table is create
+06:02:2022 - 11:38:55 - main.__main__: -> DEBUG - Start program
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - Data enters in DB
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "масло сливочное" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - Show to the entire list.
+06:02:2022 - 11:38:55 - main.body.model: -> INFO - Была запущена функция мах-мин
+06:02:2022 - 11:38:55 - main.__main__: -> DEBUG - Stop program
