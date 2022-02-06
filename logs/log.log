@@ -1,0 +1,742 @@
+06:02:2022 - 18:20:55 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:20:55 - main.body.view_interface: -> DEBUG - MainWindow. Launch tkinter MainWindows
+06:02:2022 - 18:20:55 - main.__main__: -> DEBUG - Start program
+06:02:2022 - 18:20:55 - main.body.view_setwindow: -> DEBUG - "setwindow" worked
+06:02:2022 - 18:20:56 - main.body.view: -> DEBUG - A list with data to be entered into the database has been created
+06:02:2022 - 18:20:56 - main.body.view: -> DEBUG - A list with data to be entered into the database has been created
+06:02:2022 - 18:20:56 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x000000000440B5B0>]
+06:02:2022 - 18:20:56 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+06:02:2022 - 18:20:56 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x000000000440BC10>]
+06:02:2022 - 18:20:56 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+06:02:2022 - 18:20:56 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D85130>]
+06:02:2022 - 18:20:56 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+06:02:2022 - 18:20:56 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D81640>]
+06:02:2022 - 18:20:56 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+06:02:2022 - 18:20:56 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D81B50>]
+06:02:2022 - 18:20:56 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+06:02:2022 - 18:20:56 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D8A0D0>]
+06:02:2022 - 18:20:56 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+06:02:2022 - 18:20:56 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D895B0>]
+06:02:2022 - 18:20:56 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D89AC0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D89FA0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D899D0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D817F0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D81A90>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D81040>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x000000000440BCA0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x000000000440B100>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D92100>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D92520>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D92A30>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D92F40>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9B490>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D92730>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x000000000440BB20>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x000000000440B1C0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D81FD0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D81A30>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D81A60>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D89460>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D89700>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D89880>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9B640>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9B9A0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x00000000043F2B20>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D81D30>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D81B20>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x000000000440B5E0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x000000000440BCD0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x000000000440B1C0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D92310>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D926A0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9B190>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9BA30>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9BEB0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x00000000039A8F70>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D92DC0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x000000000440B820>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x000000000440B550>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x000000000440B9A0>]
+06:02:2022 - 18:20:57 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+06:02:2022 - 18:20:57 - main.body.controller: -> INFO - The data has been entered into the database.
+06:02:2022 - 18:20:57 - main.body.view_interface: -> DEBUG - MainWindow.__enter_data. Initial data has been added to the database.
+06:02:2022 - 18:21:45 - main.__main__: -> DEBUG - Stop program
+06:02:2022 - 18:21:47 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:21:48 - main.body.view_interface: -> DEBUG - MainWindow. Launch tkinter MainWindows
+06:02:2022 - 18:21:48 - main.__main__: -> DEBUG - Start program
+06:02:2022 - 18:21:48 - main.body.view_setwindow: -> DEBUG - "setwindow" worked
+06:02:2022 - 18:21:51 - main.body.view: -> DEBUG - A list with data to be entered into the database has been created
+06:02:2022 - 18:21:51 - main.body.view: -> DEBUG - A list with data to be entered into the database has been created
+06:02:2022 - 18:21:51 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D83520>]
+06:02:2022 - 18:21:51 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+06:02:2022 - 18:21:51 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D83B50>]
+06:02:2022 - 18:21:51 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+06:02:2022 - 18:21:51 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D910D0>]
+06:02:2022 - 18:21:51 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+06:02:2022 - 18:21:51 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D855B0>]
+06:02:2022 - 18:21:51 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+06:02:2022 - 18:21:51 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D85AC0>]
+06:02:2022 - 18:21:51 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+06:02:2022 - 18:21:51 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D85FA0>]
+06:02:2022 - 18:21:51 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+06:02:2022 - 18:21:51 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D96520>]
+06:02:2022 - 18:21:51 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+06:02:2022 - 18:21:51 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D96A30>]
+06:02:2022 - 18:21:51 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D96F40>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D96940>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D85880>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D851F0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D854F0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D83A30>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D83280>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D830A0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9E490>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9E9A0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9EEB0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004DA3400>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9E6D0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D83460>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D83FA0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D85580>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D85730>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D85DC0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D963A0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D96D30>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D96F10>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004DA3550>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004DA3910>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x00000000039C4EE0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D85FA0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D85580>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D839D0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D83850>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D83FA0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9E310>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9E6A0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004DA3040>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004DA39A0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004DA3E20>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x00000000039EDE20>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D9E1C0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D834C0>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D83A30>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.model: -> DEBUG - [<body.model.Goods object at 0x0000000004D83B80>]
+06:02:2022 - 18:21:52 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+06:02:2022 - 18:21:52 - main.body.controller: -> INFO - The data has been entered into the database.
+06:02:2022 - 18:21:52 - main.body.view_interface: -> DEBUG - MainWindow.__enter_data. Initial data has been added to the database.
+06:02:2022 - 18:22:02 - main.__main__: -> DEBUG - Stop program
+06:02:2022 - 18:22:22 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+06:02:2022 - 18:22:26 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+06:02:2022 - 18:22:27 - main.body.controller: -> INFO - The data has been entered into the database.
+06:02:2022 - 18:24:57 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:25:06 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+06:02:2022 - 18:25:06 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+06:02:2022 - 18:25:06 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+06:02:2022 - 18:25:06 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+06:02:2022 - 18:25:07 - main.body.controller: -> INFO - The data has been entered into the database.
+06:02:2022 - 18:33:00 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:33:22 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:33:39 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:34:37 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:35:33 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:35:43 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:35:54 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:36:06 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:36:17 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:36:50 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:37:06 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:37:50 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:38:14 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:38:23 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:39:33 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:40:03 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:40:17 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:40:41 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:40:59 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:41:20 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:41:27 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:43:08 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+06:02:2022 - 18:43:15 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.controller: -> INFO - The data has been entered into the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+06:02:2022 - 18:43:16 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+06:02:2022 - 18:43:17 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+06:02:2022 - 18:43:17 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+06:02:2022 - 18:43:17 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+06:02:2022 - 18:43:17 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+06:02:2022 - 18:43:17 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+06:02:2022 - 18:43:17 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+06:02:2022 - 18:43:17 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+06:02:2022 - 18:43:17 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+06:02:2022 - 18:43:17 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+06:02:2022 - 18:43:17 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+06:02:2022 - 18:43:17 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+06:02:2022 - 18:43:17 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+06:02:2022 - 18:43:17 - main.body.controller: -> INFO - The data has been entered into the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+06:02:2022 - 18:43:24 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+06:02:2022 - 18:43:25 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+06:02:2022 - 18:43:25 - main.body.controller: -> INFO - The data has been entered into the database.
+06:02:2022 - 18:44:14 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:45:05 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:45:40 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:48:53 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:50:47 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:50:55 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:51:02 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:51:08 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:51:33 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:51:59 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:53:00 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:57:10 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:57:32 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:58:02 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 18:59:53 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:00:30 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:01:09 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:01:23 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:01:38 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:09:18 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:09:49 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:11:27 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:16:58 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:17:56 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:19:00 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:19:22 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:21:01 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:23:04 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:25:06 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:26:58 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:27:01 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 35, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()), int(self.add_enter_count.get())]
+ValueError: invalid literal for int() with base 10: 'price'
+06:02:2022 - 19:27:10 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 35, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()), int(self.add_enter_count.get())]
+ValueError: invalid literal for int() with base 10: 'price'
+06:02:2022 - 19:29:35 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 35, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()), int(self.add_enter_count.get())]
+ValueError: invalid literal for int() with base 10: 'price'
+06:02:2022 - 19:29:41 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 35, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()), int(self.add_enter_count.get())]
+ValueError: invalid literal for int() with base 10: 'price'
+06:02:2022 - 19:30:08 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 35, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()), int(self.add_enter_count.get())]
+ValueError: invalid literal for int() with base 10: 'price'
+06:02:2022 - 19:30:14 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:30:15 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+06:02:2022 - 19:30:15 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+06:02:2022 - 19:30:15 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+06:02:2022 - 19:30:16 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+06:02:2022 - 19:30:17 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+06:02:2022 - 19:30:17 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+06:02:2022 - 19:30:17 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+06:02:2022 - 19:30:17 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+06:02:2022 - 19:30:17 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+06:02:2022 - 19:30:17 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+06:02:2022 - 19:30:17 - main.body.controller: -> INFO - The data has been entered into the database.
+06:02:2022 - 19:30:18 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 35, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()), int(self.add_enter_count.get())]
+ValueError: invalid literal for int() with base 10: 'price'
+06:02:2022 - 19:30:27 - main.body.model: -> INFO - An entry named "name" has been added in DB.
+06:02:2022 - 19:30:27 - main.body.view_interface: -> INFO - 
+06:02:2022 - 19:31:19 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:31:24 - main.body.model: -> INFO - Error. Name "name" is in the database.
+06:02:2022 - 19:31:29 - main.body.model: -> INFO - An entry named "name1" has been added in DB.
+06:02:2022 - 19:37:14 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:40:16 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:40:24 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:40:31 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:44:15 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:44:33 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:45:10 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:47:38 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+06:02:2022 - 19:47:42 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+06:02:2022 - 19:47:43 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+06:02:2022 - 19:47:43 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+06:02:2022 - 19:47:43 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+06:02:2022 - 19:47:43 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+06:02:2022 - 19:47:43 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+06:02:2022 - 19:47:43 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+06:02:2022 - 19:47:43 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+06:02:2022 - 19:47:43 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+06:02:2022 - 19:47:43 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+06:02:2022 - 19:47:43 - main.body.controller: -> INFO - The data has been entered into the database.
+06:02:2022 - 19:47:46 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 35, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()), int(self.add_enter_count.get())]
+ValueError: invalid literal for int() with base 10: 'price'
+06:02:2022 - 19:48:06 - main.body.model: -> INFO - Error. Name "name" is in the database.
+06:02:2022 - 19:54:09 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:54:13 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 35, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()), int(self.add_enter_count.get())]
+ValueError: invalid literal for int() with base 10: 'price'
+06:02:2022 - 19:54:15 - main.body.model: -> INFO - Product named "name" was successfully removed from the list
+06:02:2022 - 19:54:20 - main.body.model: -> INFO - Error. product named "name" is not listed.
+06:02:2022 - 19:56:03 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:56:05 - main.body.model: -> INFO - Error. product named "name" is not listed.
+06:02:2022 - 19:56:06 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 35, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()), int(self.add_enter_count.get())]
+ValueError: invalid literal for int() with base 10: 'price'
+06:02:2022 - 19:56:07 - main.body.model: -> INFO - Error. product named "name" is not listed.
+06:02:2022 - 19:58:35 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 19:58:37 - main.body.model: -> INFO - Error. product named "name" is not listed.
+06:02:2022 - 19:58:40 - main.body.model: -> INFO - Error. product named "1" is not listed.
+06:02:2022 - 19:58:54 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 35, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()), int(self.add_enter_count.get())]
+ValueError: invalid literal for int() with base 10: 'price'
+06:02:2022 - 19:59:10 - main.body.model: -> INFO - Error. product named "name" is not listed.
+06:02:2022 - 19:59:12 - main.body.model: -> INFO - An entry named "name" has been added in DB.
+06:02:2022 - 19:59:14 - main.body.model: -> INFO - Product named "name" was successfully removed from the list
+06:02:2022 - 19:59:17 - main.body.model: -> INFO - Error. product named "name" is not listed.
+06:02:2022 - 20:00:40 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 20:00:45 - main.body.model: -> INFO - An entry named "name" has been added in DB.
+06:02:2022 - 20:00:49 - main.body.model: -> INFO - Product named "name" was successfully removed from the list
+06:02:2022 - 20:00:52 - main.body.model: -> INFO - Error. product named "name" is not listed.
+06:02:2022 - 20:00:54 - main.body.model: -> INFO - An entry named "name" has been added in DB.
+06:02:2022 - 20:00:54 - main.body.model: -> INFO - Product named "name" was successfully removed from the list
+06:02:2022 - 20:01:57 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 20:02:01 - main.body.model: -> INFO - An entry named "name" has been added in DB.
+06:02:2022 - 20:02:03 - main.body.model: -> INFO - Product named "name" was successfully removed from the list
+06:02:2022 - 20:02:06 - main.body.model: -> INFO - Error. product named "name" is not listed.
+06:02:2022 - 20:02:09 - main.body.model: -> INFO - Error. product named "name" is not listed.
+06:02:2022 - 20:02:10 - main.body.model: -> INFO - An entry named "name" has been added in DB.
+06:02:2022 - 20:02:12 - main.body.model: -> INFO - Product named "name" was successfully removed from the list
+06:02:2022 - 20:02:15 - main.body.model: -> INFO - Error. product named "name" is not listed.
+06:02:2022 - 20:02:31 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 20:02:34 - main.body.model: -> INFO - An entry named "name" has been added in DB.
+06:02:2022 - 20:02:39 - main.body.model: -> INFO - Product named "name" was successfully removed from the list
+06:02:2022 - 20:02:41 - main.body.model: -> INFO - Error. product named "name" is not listed.
+06:02:2022 - 20:04:47 - main.body.model: -> INFO - Table "goods" is create
+06:02:2022 - 20:04:50 - main.body.model: -> INFO - Error. product named "name" is not listed.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+06:02:2022 - 20:04:57 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+06:02:2022 - 20:04:58 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+06:02:2022 - 20:04:58 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+06:02:2022 - 20:04:58 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+06:02:2022 - 20:04:58 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+06:02:2022 - 20:04:58 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+06:02:2022 - 20:04:58 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+06:02:2022 - 20:04:58 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+06:02:2022 - 20:04:58 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+06:02:2022 - 20:04:58 - main.body.controller: -> INFO - The data has been entered into the database.
