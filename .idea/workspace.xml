@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f4954d-bd55-4ca1-884d-d8b0fddf0270" name="Changes" comment="main">
-      <change afterPath="$PROJECT_DIR$/json_files/3_db_in_json.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_files/4_db_in_json.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_files/5_db_in_json.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/body/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/body/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/body/view_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/body/view_interface.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644323310220</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="main">
+      <created>1644323989202</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1644323989202</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

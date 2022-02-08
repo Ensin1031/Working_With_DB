@@ -247,6 +247,7 @@ class MainWindow(tk.Frame):
 
 def start_main_window():
     root = tk.Tk()
+    # raise ValueError('Test error')
     MainWindow(root)
     root.mainloop()
 

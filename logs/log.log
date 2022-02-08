@@ -2476,3 +2476,24 @@ ValueError: invalid literal for int() with base 10: 'цена'
 08:02:2022 - 22:35:37 - main.body.controller: -> INFO - The data has been entered into the database.
 08:02:2022 - 22:35:47 - main.body.model: -> INFO - Была запущена функция мах-мин
 08:02:2022 - 22:35:50 - main.body.controller: -> INFO - The database is written in JSON format to the file "json_files/5_db_in_json.json"
+08:02:2022 - 22:41:47 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:41:49 - main.body.model: -> INFO - Product named "имя" was successfully removed from the list
+08:02:2022 - 22:41:51 - main.body.model: -> INFO - Error. product named "имя" is not listed.
+08:02:2022 - 22:42:06 - main.body.model: -> INFO - Была запущена функция мах-мин
+08:02:2022 - 22:43:16 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:43:17 - main.__main__: -> ERROR - Error when starting the main program window
+Traceback (most recent call last):
+  File "C:/GitHub_Desktop/Working_With_DB/main.py", line 14, in <module>
+    show_main_window()
+  File "C:\GitHub_Desktop\Working_With_DB\body\controller.py", line 20, in show_main_window
+    start_main_window()
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 250, in start_main_window
+    raise ValueError
+ValueError
+08:02:2022 - 22:44:49 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:44:55 - main.body.model: -> INFO - Была запущена функция мах-мин
+08:02:2022 - 22:44:56 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 47, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()),
+ValueError: invalid literal for int() with base 10: 'цена'
