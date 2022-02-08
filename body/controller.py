@@ -7,17 +7,17 @@ import logging
 
 logger = logging.getLogger('main.' + __name__)
 
-def show_main_window():
-    """The function of obtaining the initial data file for the database and launching the main user window."""
-    ViewForGood().data_from_list()
-    start_main_window()
-
 def primary_data():
     """Entering initial data into the database."""
     for row in ViewForGood().data_from_file():
         create_good_from_list(row)
 
     logger.info('The data has been entered into the database.')
+
+def show_main_window():
+    """The function of obtaining the initial data file for the database and launching the main user window."""
+    ViewForGood().data_from_list()
+    start_main_window()
 
 
 def result_list():

@@ -3,7 +3,7 @@ import tkinter as tk
 from body.view_setwindow import setwindow
 from functools import partial
 from body.model import create_good_from_list, delete_goods_from_list
-from body.controller import primary_data, result_list, clear_db_func, max_min_func, json_output
+import body.controller as cont
 
 import logging
 logger = logging.getLogger('main.' + __name__)
@@ -36,10 +36,10 @@ class MainWindow(tk.Frame):
 
     def __enter_data(self):
         """Enter initial date in DB"""
-        primary_data()
+        cont.primary_data()
         self.lable_exit.config(text='Первоначальные данные в базу былы добавлены')
         logger.debug('MainWindow.__enter_data. Initial data has been added to the database.')
-        self.__output_frame(result_list())
+        self.__output_frame(cont.result_list())
 
     def __enter_user_data(self):
         """Function for adding users data"""
@@ -52,7 +52,7 @@ class MainWindow(tk.Frame):
         else:
             create_good_from_list(user_data_list)
             self.lable_exit.config(text=f'Ваш продукт "{user_data_list[0]}" добавлен в таблицу')
-        self.__output_frame(result_list())
+        self.__output_frame(cont.result_list())
 
     def __del_by_name(self):
         """A function to delete data from a table by name."""
@@ -62,11 +62,11 @@ class MainWindow(tk.Frame):
             self.lable_exit.config(text=f'Продукт с именем "{data}" удален из таблицы')
         else:
             self.lable_exit.config(text=f'Продукт с именем "{data}" отсутствует в таблице')
-        self.__output_frame(result_list())
+        self.__output_frame(cont.result_list())
 
     def __max_min_values(self):
         """Function of max and min values"""
-        data = max_min_func()
+        data = cont.max_min_func()
         if data == False:
             self.lable_exit.config(text='БД пуста, откуда тут возьмутся максимальные или минимальные значения?!')
         else:
@@ -75,21 +75,21 @@ class MainWindow(tk.Frame):
 
     def __clean_db(self):
         """Function of completely deleting data from the database."""
-        if clear_db_func():
+        if cont.clear_db_func():
             self.lable_exit.config(text='БД теперь полностью пуста.')
         else:
             self.lable_exit.config(text='БД и так полностью пуста, хватит баловаться...')
-        self.__output_frame(result_list())
+        self.__output_frame(cont.result_list())
 
     def json_in_file(self):
         """Function of outputting data from the database to a file in JSON format"""
-        data = json_output()
+        data = cont.json_output()
         if data:
             self.lable_exit.config(text=f'БД записана в JSON формате в файл "{data}"')
-            self.__output_frame(result_list())
+            self.__output_frame(cont.result_list())
         else:
             self.lable_exit.config(text='БД пуста. Нечего выводить в файл....')
-            self.__output_frame(result_list())
+            self.__output_frame(cont.result_list())
 
     def __init_window(self):
         """Main window"""
