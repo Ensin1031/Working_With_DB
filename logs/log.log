@@ -740,3 +740,1579 @@ ValueError: invalid literal for int() with base 10: 'price'
 06:02:2022 - 20:04:58 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
 06:02:2022 - 20:04:58 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
 06:02:2022 - 20:04:58 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 18:33:28 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:39:21 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:39:44 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:40:03 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:40:40 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:47:28 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:47:35 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:47:48 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:47:58 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:48:04 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:48:20 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:53:34 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:54:09 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:59:48 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 18:59:55 - main.body.model: -> INFO - Error. product named "name" is not listed.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+07:02:2022 - 18:59:58 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+07:02:2022 - 18:59:59 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+07:02:2022 - 18:59:59 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 19:00:20 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 19:00:22 - main.body.model: -> INFO - Error. product named "name" is not listed.
+07:02:2022 - 19:00:24 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 19:01:39 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 19:01:44 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 35, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()),
+ValueError: invalid literal for int() with base 10: 'цена'
+07:02:2022 - 19:01:51 - main.body.model: -> INFO - An entry named "имя" has been added in DB.
+07:02:2022 - 19:01:59 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 19:02:07 - main.body.model: -> INFO - Product named "имя" was successfully removed from the list
+07:02:2022 - 19:02:13 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 20:33:21 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+07:02:2022 - 20:33:25 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+07:02:2022 - 20:33:26 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 20:33:26 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:33:33 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 42, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()),
+ValueError: invalid literal for int() with base 10: 'цена'
+07:02:2022 - 20:33:33 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:33:39 - main.body.model: -> INFO - Error. product named "имя" is not listed.
+07:02:2022 - 20:33:39 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:33:45 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 20:35:16 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 20:35:18 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 20:35:41 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+07:02:2022 - 20:35:45 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+07:02:2022 - 20:35:46 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+07:02:2022 - 20:35:46 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+07:02:2022 - 20:35:46 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+07:02:2022 - 20:35:46 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+07:02:2022 - 20:35:46 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+07:02:2022 - 20:35:46 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+07:02:2022 - 20:35:46 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+07:02:2022 - 20:35:46 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+07:02:2022 - 20:35:46 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+07:02:2022 - 20:35:46 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+07:02:2022 - 20:35:46 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+07:02:2022 - 20:35:46 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 20:35:46 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:35:56 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 20:42:44 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+07:02:2022 - 20:42:48 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+07:02:2022 - 20:42:49 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+07:02:2022 - 20:42:49 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+07:02:2022 - 20:42:49 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+07:02:2022 - 20:42:49 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+07:02:2022 - 20:42:49 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+07:02:2022 - 20:42:49 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+07:02:2022 - 20:42:49 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+07:02:2022 - 20:42:49 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+07:02:2022 - 20:42:49 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+07:02:2022 - 20:42:49 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+07:02:2022 - 20:42:49 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 20:42:49 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:42:57 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 20:43:06 - main.body.model: -> INFO - Error. product named "имя" is not listed.
+07:02:2022 - 20:43:06 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:43:15 - main.body.model: -> INFO - An entry named "имя" has been added in DB.
+07:02:2022 - 20:43:15 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:43:23 - main.body.model: -> INFO - An entry named "имя2" has been added in DB.
+07:02:2022 - 20:43:23 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:43:29 - main.body.model: -> INFO - An entry named "имя3" has been added in DB.
+07:02:2022 - 20:43:29 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:43:34 - main.body.model: -> INFO - Product named "имя" was successfully removed from the list
+07:02:2022 - 20:43:34 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:43:41 - main.body.model: -> INFO - Product named "имя3" was successfully removed from the list
+07:02:2022 - 20:43:41 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:45:33 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 20:45:39 - main.body.model: -> INFO - Error. product named "имя" is not listed.
+07:02:2022 - 20:45:39 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:45:47 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 20:45:54 - main.body.model: -> INFO - Error. product named "имя" is not listed.
+07:02:2022 - 20:45:54 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:45:57 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+07:02:2022 - 20:45:57 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+07:02:2022 - 20:45:57 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+07:02:2022 - 20:45:57 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+07:02:2022 - 20:45:57 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+07:02:2022 - 20:45:57 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+07:02:2022 - 20:45:57 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+07:02:2022 - 20:45:58 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 20:45:58 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:47:16 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+07:02:2022 - 20:47:18 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+07:02:2022 - 20:47:19 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 20:47:19 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:47:22 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 20:47:26 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 42, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()),
+ValueError: invalid literal for int() with base 10: 'цена'
+07:02:2022 - 20:47:26 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:47:43 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 20:47:45 - main.body.model: -> INFO - Error. product named "имя" is not listed.
+07:02:2022 - 20:47:45 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:47:47 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 20:47:55 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 20:47:57 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 20:47:59 - main.body.model: -> INFO - Error. product named "имя" is not listed.
+07:02:2022 - 20:47:59 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 20:56:26 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 20:57:26 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 20:57:29 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 21:03:13 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:04:02 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:04:38 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:05:15 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:05:55 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:06:33 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 21:06:41 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:06:42 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 21:06:51 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:06:52 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 21:07:00 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:07:02 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 21:07:54 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:08:07 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:08:44 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:09:14 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:09:29 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:09:53 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:10:53 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:11:04 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:11:22 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:12:01 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:12:10 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:12:18 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:12:25 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:12:36 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:13:00 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:13:23 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:14:11 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:14:26 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:15:03 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:15:13 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:15:44 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:15:55 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:16:58 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:17:06 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:17:22 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:17:30 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:17:39 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:17:52 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:20:17 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:20:32 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:20:44 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:21:27 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:22:10 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:22:13 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 21:37:34 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "молоко Хорская Буренка" is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "молоко Фермерское" is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "молоко Простоквашино" is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "хлеб серый хлебозавод" is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "яйцо 1 кат." is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "яйцо 2 кат." is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "яйцо 3 кат." is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "макароны Макфа,рожки" is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "макароны Макфа,спагетти" is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "сахар 1кг" is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "соль 1 кг" is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "масло сливочное" is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "масло подсолнечное" is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "говядина 1кг" is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "свинина 1кг" is in the database.
+07:02:2022 - 21:37:38 - main.body.model: -> INFO - Error. Name "баранина 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "филе куринное 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "грудка куринная 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "голень куринная 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "крылышки куринные 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "рыба мороженая, Кета 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "рыба мороженая, Треска 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "рыба мороженая, Горбуша 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "рыба мороженая, Окунь 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "чай черный Greenfield 10 пак." is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "Чай черный Lipton 10 пак." is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "чай зеленый Greenfield 10 пак." is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "Чай зеленый Lipton 10 пак." is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 1кг." is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "мука пшеничная Весёлый мельник 2кг." is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "хлеб ржаной хлебозавод" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "сушки 1кг." is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "пряники 1кг." is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "булочки плюшки" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "пирожки с брусникой" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "пирожки с картошкой" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "пирожки с вишней" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "рис шлифованный 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "рис круглозерный 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "пшено 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "крупа гречневая 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "вермишель Макфа 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "картофель 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "капуста белокочанная 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "лук репчатый 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "морковь 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Error. Name "яблоки Новая Зеландия 1кг" is in the database.
+07:02:2022 - 21:37:39 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 21:37:39 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:38:26 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:38:30 - main.body.model: -> INFO - Error. product named "имя" is not listed.
+07:02:2022 - 21:38:30 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:38:32 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "молоко Хорская Буренка" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "молоко Фермерское" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "молоко Простоквашино" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "хлеб серый хлебозавод" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "яйцо 1 кат." was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "яйцо 2 кат." was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "яйцо 3 кат." was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "макароны Макфа,рожки" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "макароны Макфа,спагетти" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "сахар 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "соль 1 кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "масло сливочное" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "масло подсолнечное" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "говядина 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "свинина 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "баранина 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "филе куринное 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "грудка куринная 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "голень куринная 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "крылышки куринные 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "рыба мороженая, Кета 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "рыба мороженая, Треска 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "рыба мороженая, Горбуша 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "рыба мороженая, Окунь 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "чай черный Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "Чай черный Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "чай зеленый Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "Чай зеленый Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 1кг." was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 2кг." was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "хлеб ржаной хлебозавод" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "сушки 1кг." was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "пряники 1кг." was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "булочки плюшки" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "пирожки с брусникой" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "пирожки с картошкой" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "пирожки с вишней" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "рис шлифованный 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "рис круглозерный 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "пшено 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "крупа гречневая 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "вермишель Макфа 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "картофель 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "капуста белокочанная 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "лук репчатый 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "морковь 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "яблоки Новая Зеландия 1кг" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Product named "имя2" was successfully removed from the list
+07:02:2022 - 21:38:33 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:38:41 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:38:41 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:38:46 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:38:46 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:39:33 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "масло сливочное" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added in DB.
+07:02:2022 - 21:39:35 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 21:39:35 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "молоко Хорская Буренка" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "молоко Фермерское" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "молоко Простоквашино" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "хлеб серый хлебозавод" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "яйцо 1 кат." was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "яйцо 2 кат." was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "яйцо 3 кат." was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "макароны Макфа,рожки" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "макароны Макфа,спагетти" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "сахар 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "соль 1 кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "масло сливочное" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "масло подсолнечное" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "говядина 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "свинина 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "баранина 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "филе куринное 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "грудка куринная 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "голень куринная 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "крылышки куринные 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "рыба мороженая, Кета 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "рыба мороженая, Треска 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "рыба мороженая, Горбуша 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "рыба мороженая, Окунь 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "чай черный Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "Чай черный Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "чай зеленый Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "Чай зеленый Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 1кг." was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 2кг." was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "хлеб ржаной хлебозавод" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "сушки 1кг." was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "пряники 1кг." was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "булочки плюшки" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "пирожки с брусникой" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "пирожки с картошкой" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "пирожки с вишней" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "рис шлифованный 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "рис круглозерный 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "пшено 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "крупа гречневая 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "вермишель Макфа 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "картофель 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "капуста белокочанная 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "лук репчатый 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "морковь 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Product named "яблоки Новая Зеландия 1кг" was successfully removed from the list
+07:02:2022 - 21:39:39 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:40:45 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "масло сливочное" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added in DB.
+07:02:2022 - 21:40:47 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 21:40:47 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:40:50 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 42, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()),
+ValueError: invalid literal for int() with base 10: 'цена'
+07:02:2022 - 21:40:50 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "молоко Хорская Буренка" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "молоко Фермерское" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "молоко Простоквашино" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "хлеб серый хлебозавод" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "яйцо 1 кат." was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "яйцо 2 кат." was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "яйцо 3 кат." was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "макароны Макфа,рожки" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "макароны Макфа,спагетти" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "сахар 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "соль 1 кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "масло сливочное" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "масло подсолнечное" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "говядина 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "свинина 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "баранина 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "филе куринное 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "грудка куринная 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "голень куринная 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "крылышки куринные 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "рыба мороженая, Кета 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "рыба мороженая, Треска 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "рыба мороженая, Горбуша 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "рыба мороженая, Окунь 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "чай черный Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "Чай черный Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "чай зеленый Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "Чай зеленый Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 1кг." was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 2кг." was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "хлеб ржаной хлебозавод" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "сушки 1кг." was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "пряники 1кг." was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "булочки плюшки" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "пирожки с брусникой" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "пирожки с картошкой" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "пирожки с вишней" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "рис шлифованный 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "рис круглозерный 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "пшено 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "крупа гречневая 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "вермишель Макфа 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "картофель 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "капуста белокочанная 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "лук репчатый 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "морковь 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Product named "яблоки Новая Зеландия 1кг" was successfully removed from the list
+07:02:2022 - 21:40:55 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:43:23 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:43:29 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:43:29 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:45:21 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:45:28 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "масло сливочное" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added in DB.
+07:02:2022 - 21:45:49 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 21:45:49 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "молоко Хорская Буренка" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "молоко Фермерское" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "молоко Простоквашино" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "хлеб серый хлебозавод" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "яйцо 1 кат." was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "яйцо 2 кат." was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "яйцо 3 кат." was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "макароны Макфа,рожки" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "макароны Макфа,спагетти" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "сахар 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "соль 1 кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "масло сливочное" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "масло подсолнечное" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "говядина 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "свинина 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "баранина 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "филе куринное 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "грудка куринная 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "голень куринная 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "крылышки куринные 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "рыба мороженая, Кета 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "рыба мороженая, Треска 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "рыба мороженая, Горбуша 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "рыба мороженая, Окунь 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "чай черный Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "Чай черный Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "чай зеленый Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "Чай зеленый Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 1кг." was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 2кг." was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "хлеб ржаной хлебозавод" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "сушки 1кг." was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "пряники 1кг." was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "булочки плюшки" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "пирожки с брусникой" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "пирожки с картошкой" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "пирожки с вишней" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "рис шлифованный 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "рис круглозерный 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "пшено 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "крупа гречневая 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "вермишель Макфа 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "картофель 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "капуста белокочанная 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "лук репчатый 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "морковь 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Product named "яблоки Новая Зеландия 1кг" was successfully removed from the list
+07:02:2022 - 21:45:52 - main.body.controller: -> INFO - DB is cleaned
+07:02:2022 - 21:45:52 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:45:55 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:45:55 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:46:19 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 21:46:23 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 42, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()),
+ValueError: invalid literal for int() with base 10: 'цена'
+07:02:2022 - 21:46:23 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "масло сливочное" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added in DB.
+07:02:2022 - 21:46:26 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 21:46:26 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "молоко Хорская Буренка" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "молоко Фермерское" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "молоко Простоквашино" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "хлеб серый хлебозавод" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "яйцо 1 кат." was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "яйцо 2 кат." was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "яйцо 3 кат." was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "макароны Макфа,рожки" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "макароны Макфа,спагетти" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "сахар 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "соль 1 кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "масло сливочное" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "масло подсолнечное" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "говядина 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "свинина 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "баранина 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "филе куринное 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "грудка куринная 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "голень куринная 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "крылышки куринные 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "рыба мороженая, Кета 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "рыба мороженая, Треска 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "рыба мороженая, Горбуша 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "рыба мороженая, Окунь 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "чай черный Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "Чай черный Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "чай зеленый Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "Чай зеленый Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 1кг." was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 2кг." was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "хлеб ржаной хлебозавод" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "сушки 1кг." was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "пряники 1кг." was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "булочки плюшки" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "пирожки с брусникой" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "пирожки с картошкой" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "пирожки с вишней" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "рис шлифованный 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "рис круглозерный 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "пшено 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "крупа гречневая 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "вермишель Макфа 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "картофель 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "капуста белокочанная 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "лук репчатый 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "морковь 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Product named "яблоки Новая Зеландия 1кг" was successfully removed from the list
+07:02:2022 - 21:46:58 - main.body.controller: -> INFO - DB is cleaned
+07:02:2022 - 21:46:58 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:47:41 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:47:41 - main.body.model: -> INFO - Show to the entire list.
+07:02:2022 - 21:47:53 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:00:59 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "масло сливочное" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added in DB.
+07:02:2022 - 22:01:05 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 22:01:08 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "молоко Хорская Буренка" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "молоко Фермерское" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "молоко Простоквашино" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "хлеб серый хлебозавод" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "яйцо 1 кат." was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "яйцо 2 кат." was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "яйцо 3 кат." was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "макароны Макфа,рожки" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "макароны Макфа,спагетти" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "сахар 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "соль 1 кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "масло сливочное" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "масло подсолнечное" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "говядина 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "свинина 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "баранина 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "филе куринное 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "грудка куринная 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "голень куринная 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "крылышки куринные 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "рыба мороженая, Кета 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "рыба мороженая, Треска 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "рыба мороженая, Горбуша 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "рыба мороженая, Окунь 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "чай черный Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "Чай черный Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "чай зеленый Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "Чай зеленый Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 1кг." was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 2кг." was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "хлеб ржаной хлебозавод" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "сушки 1кг." was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "пряники 1кг." was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "булочки плюшки" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "пирожки с брусникой" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "пирожки с картошкой" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "пирожки с вишней" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "рис шлифованный 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "рис круглозерный 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "пшено 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "крупа гречневая 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "вермишель Макфа 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "картофель 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "капуста белокочанная 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "лук репчатый 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "морковь 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.model: -> INFO - Product named "яблоки Новая Зеландия 1кг" was successfully removed from the list
+07:02:2022 - 22:01:11 - main.body.controller: -> INFO - DB is cleaned
+07:02:2022 - 22:01:13 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:01:15 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:02:36 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:02:43 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:02:48 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 42, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()),
+ValueError: invalid literal for int() with base 10: 'цена'
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "масло сливочное" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added in DB.
+07:02:2022 - 22:02:50 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 22:02:52 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:02:54 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "молоко Хорская Буренка" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "молоко Фермерское" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "молоко Простоквашино" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "хлеб серый хлебозавод" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "яйцо 1 кат." was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "яйцо 2 кат." was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "яйцо 3 кат." was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "макароны Макфа,рожки" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "макароны Макфа,спагетти" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "сахар 1кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "соль 1 кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "масло сливочное" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "масло подсолнечное" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "говядина 1кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "свинина 1кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "баранина 1кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "филе куринное 1кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "грудка куринная 1кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "голень куринная 1кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "крылышки куринные 1кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "рыба мороженая, Кета 1кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "рыба мороженая, Треска 1кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "рыба мороженая, Горбуша 1кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "рыба мороженая, Окунь 1кг" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "чай черный Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "Чай черный Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "чай зеленый Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "Чай зеленый Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 1кг." was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 2кг." was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "хлеб ржаной хлебозавод" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "сушки 1кг." was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "пряники 1кг." was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "булочки плюшки" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "пирожки с брусникой" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "пирожки с картошкой" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "пирожки с вишней" was successfully removed from the list
+07:02:2022 - 22:02:57 - main.body.model: -> INFO - Product named "рис шлифованный 1кг" was successfully removed from the list
+07:02:2022 - 22:02:58 - main.body.model: -> INFO - Product named "рис круглозерный 1кг" was successfully removed from the list
+07:02:2022 - 22:02:58 - main.body.model: -> INFO - Product named "пшено 1кг" was successfully removed from the list
+07:02:2022 - 22:02:58 - main.body.model: -> INFO - Product named "крупа гречневая 1кг" was successfully removed from the list
+07:02:2022 - 22:02:58 - main.body.model: -> INFO - Product named "вермишель Макфа 1кг" was successfully removed from the list
+07:02:2022 - 22:02:58 - main.body.model: -> INFO - Product named "картофель 1кг" was successfully removed from the list
+07:02:2022 - 22:02:58 - main.body.model: -> INFO - Product named "капуста белокочанная 1кг" was successfully removed from the list
+07:02:2022 - 22:02:58 - main.body.model: -> INFO - Product named "лук репчатый 1кг" was successfully removed from the list
+07:02:2022 - 22:02:58 - main.body.model: -> INFO - Product named "морковь 1кг" was successfully removed from the list
+07:02:2022 - 22:02:58 - main.body.model: -> INFO - Product named "яблоки Новая Зеландия 1кг" was successfully removed from the list
+07:02:2022 - 22:02:58 - main.body.controller: -> INFO - DB is cleaned
+07:02:2022 - 22:02:59 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:03:09 - main.body.model: -> INFO - An entry named "имя" has been added in DB.
+07:02:2022 - 22:03:11 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:03:44 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "масло сливочное" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added in DB.
+07:02:2022 - 22:03:49 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 22:03:51 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "имя" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "молоко Хорская Буренка" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "молоко Фермерское" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "молоко Простоквашино" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "хлеб серый хлебозавод" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "яйцо 1 кат." was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "яйцо 2 кат." was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "яйцо 3 кат." was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "макароны Макфа,рожки" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "макароны Макфа,спагетти" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "сахар 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "соль 1 кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "масло сливочное" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "масло подсолнечное" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "говядина 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "свинина 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "баранина 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "филе куринное 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "грудка куринная 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "голень куринная 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "крылышки куринные 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "рыба мороженая, Кета 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "рыба мороженая, Треска 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "рыба мороженая, Горбуша 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "рыба мороженая, Окунь 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "чай черный Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "Чай черный Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "чай зеленый Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "Чай зеленый Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 1кг." was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 2кг." was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "хлеб ржаной хлебозавод" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "сушки 1кг." was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "пряники 1кг." was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "булочки плюшки" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "пирожки с брусникой" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "пирожки с картошкой" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "пирожки с вишней" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "рис шлифованный 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "рис круглозерный 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "пшено 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "крупа гречневая 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "вермишель Макфа 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "картофель 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "капуста белокочанная 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "лук репчатый 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "морковь 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.model: -> INFO - Product named "яблоки Новая Зеландия 1кг" was successfully removed from the list
+07:02:2022 - 22:03:58 - main.body.controller: -> INFO - DB is cleaned
+07:02:2022 - 22:04:00 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:04:05 - main.body.model: -> INFO - An entry named "имя" has been added in DB.
+07:02:2022 - 22:04:07 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:04:10 - main.body.model: -> INFO - Product named "имя" was successfully removed from the list
+07:02:2022 - 22:04:10 - main.body.controller: -> INFO - DB is cleaned
+07:02:2022 - 22:04:11 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:12:22 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "масло сливочное" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added in DB.
+07:02:2022 - 22:12:28 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 22:12:33 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "молоко Хорская Буренка" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "молоко Фермерское" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "молоко Простоквашино" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "хлеб серый хлебозавод" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "яйцо 1 кат." was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "яйцо 2 кат." was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "яйцо 3 кат." was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "макароны Макфа,рожки" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "макароны Макфа,спагетти" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "сахар 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "соль 1 кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "масло сливочное" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "масло подсолнечное" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "говядина 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "свинина 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "баранина 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "филе куринное 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "грудка куринная 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "голень куринная 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "крылышки куринные 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "рыба мороженая, Кета 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "рыба мороженая, Треска 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "рыба мороженая, Горбуша 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "рыба мороженая, Окунь 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "чай черный Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "Чай черный Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "чай зеленый Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "Чай зеленый Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 1кг." was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 2кг." was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "хлеб ржаной хлебозавод" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "сушки 1кг." was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "пряники 1кг." was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "булочки плюшки" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "пирожки с брусникой" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "пирожки с картошкой" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "пирожки с вишней" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "рис шлифованный 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "рис круглозерный 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "пшено 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "крупа гречневая 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "вермишель Макфа 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "картофель 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "капуста белокочанная 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "лук репчатый 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "морковь 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.model: -> INFO - Product named "яблоки Новая Зеландия 1кг" was successfully removed from the list
+07:02:2022 - 22:12:38 - main.body.controller: -> INFO - DB is cleaned
+07:02:2022 - 22:12:42 - main.body.model: -> INFO - An entry named "имя" has been added in DB.
+07:02:2022 - 22:12:44 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:13:59 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:14:01 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:14:20 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:14:22 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:14:25 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:14:49 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:14:51 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:17:18 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:17:20 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:17:49 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:17:51 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:18:21 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:18:23 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:19:01 - main.body.model: -> INFO - Error. Name "имя" is in the database.
+07:02:2022 - 22:26:37 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:26:43 - main.body.model: -> INFO - Product named "имя" was successfully removed from the list
+07:02:2022 - 22:26:43 - main.body.controller: -> INFO - DB is cleaned
+07:02:2022 - 22:26:49 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:27:45 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:31:47 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:41:47 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:43:55 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:51:03 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "масло сливочное" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added in DB.
+07:02:2022 - 22:51:10 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added in DB.
+07:02:2022 - 22:51:11 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 22:51:13 - main.body.view_interface: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\view_interface.py", line 47, in __enter_user_data
+    user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()),
+ValueError: invalid literal for int() with base 10: 'цена'
+07:02:2022 - 22:51:15 - main.body.model: -> INFO - Error. product named "имя" is not listed.
+07:02:2022 - 22:51:20 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "молоко Хорская Буренка" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "молоко Фермерское" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "молоко Простоквашино" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "хлеб серый хлебозавод" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "яйцо 1 кат." was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "яйцо 2 кат." was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "яйцо 3 кат." was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "макароны Макфа,рожки" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "макароны Макфа,спагетти" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "сахар 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "соль 1 кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "масло сливочное" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "масло подсолнечное" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "говядина 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "свинина 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "баранина 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "филе куринное 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "грудка куринная 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "голень куринная 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "крылышки куринные 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "рыба мороженая, Кета 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "рыба мороженая, Треска 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "рыба мороженая, Горбуша 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "рыба мороженая, Окунь 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "чай черный Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "Чай черный Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "чай зеленый Greenfield 10 пак." was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "Чай зеленый Lipton 10 пак." was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 1кг." was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "мука пшеничная Весёлый мельник 2кг." was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "хлеб ржаной хлебозавод" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "сушки 1кг." was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "пряники 1кг." was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "булочки плюшки" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "пирожки с брусникой" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "пирожки с картошкой" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "пирожки с вишней" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "рис шлифованный 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "рис круглозерный 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "пшено 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "крупа гречневая 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "вермишель Макфа 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "картофель 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "капуста белокочанная 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "лук репчатый 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "морковь 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.model: -> INFO - Product named "яблоки Новая Зеландия 1кг" was successfully removed from the list
+07:02:2022 - 22:51:22 - main.body.controller: -> INFO - DB is cleaned
+07:02:2022 - 22:51:24 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 22:56:12 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "молоко Хорская Буренка" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "молоко Фермерское" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "молоко Простоквашино" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "хлеб серый хлебозавод" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "яйцо 1 кат." has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "яйцо 2 кат." has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "яйцо 3 кат." has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "макароны Макфа,рожки" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "макароны Макфа,спагетти" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "сахар 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "соль 1 кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "масло сливочное" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "масло подсолнечное" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "говядина 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "свинина 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "баранина 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "филе куринное 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "грудка куринная 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "голень куринная 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "крылышки куринные 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "рыба мороженая, Кета 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "рыба мороженая, Треска 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "рыба мороженая, Горбуша 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "рыба мороженая, Окунь 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "чай черный Greenfield 10 пак." has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "Чай черный Lipton 10 пак." has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "чай зеленый Greenfield 10 пак." has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "Чай зеленый Lipton 10 пак." has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 1кг." has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "мука пшеничная Весёлый мельник 2кг." has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "хлеб ржаной хлебозавод" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "сушки 1кг." has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "пряники 1кг." has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "булочки плюшки" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "пирожки с брусникой" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "пирожки с картошкой" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "пирожки с вишней" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "рис шлифованный 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "рис круглозерный 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "пшено 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "крупа гречневая 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "вермишель Макфа 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "картофель 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "капуста белокочанная 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "лук репчатый 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "морковь 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.model: -> INFO - An entry named "яблоки Новая Зеландия 1кг" has been added in DB.
+07:02:2022 - 22:56:15 - main.body.controller: -> INFO - The data has been entered into the database.
+07:02:2022 - 23:11:37 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 23:14:27 - main.body.model: -> INFO - Table "goods" is create
+07:02:2022 - 23:14:30 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+07:02:2022 - 23:15:13 - main.body.model: -> INFO - Была запущена функция мах-мин
+07:02:2022 - 23:15:14 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 20:59:13 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 20:59:18 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 20:59:51 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 21:05:30 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 21:05:34 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 21:05:47 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 21:06:16 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 21:06:18 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 21:06:29 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 21:10:16 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 21:10:18 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 21:13:00 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 21:13:02 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 21:13:21 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 21:13:22 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 21:14:01 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 21:14:03 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 21:16:17 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 21:16:18 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 21:16:32 - main.body.controller: -> INFO - The database is written in JSON format to the file "db_in_json.json"
+08:02:2022 - 21:16:38 - main.body.model: -> INFO - Была запущена функция мах-мин
+08:02:2022 - 21:16:53 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:15:52 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:16:47 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:18:18 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:19:01 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:19:28 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:21:10 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:21:50 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:23:03 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:23:36 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:24:09 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:25:23 - main.body.model: -> INFO - Table "goods" is create
+08:02:2022 - 22:27:35 - main.body.model: -> INFO - Table "goods" is create

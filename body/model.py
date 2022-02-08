@@ -1,11 +1,7 @@
-'''
-Работа с данными, хранение данных, получение данных
-'''
-
+# coding=UTF-8
 from sqlalchemy import create_engine, Integer, String, Column, func
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
-#from body.list_goods import list_goods
 import json
 import logging
 
@@ -15,19 +11,6 @@ logger = logging.getLogger('main.' + __name__)
 engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", future=True, max_overflow=20)
 Base = declarative_base()
 
-#
-# def primary_data():
-#     """The function creates a file with initial data and enters them into the database."""
-#     logger.info('Data enters in DB')
-#     with open('body/goods.info', 'w', encoding='utf-8') as goods:
-#         for line in list_goods:
-#             goods.write(line)
-#     with open('body/goods.info', 'r', encoding='utf-8') as goods:
-#         for line in goods.readlines():
-#             list_good = line.split(':')
-#             list_good[1], list_good[2] = int(list_good[1]), int(list_good[2])
-#             create_good_from_list(list_good)
-#
 
 class Goods(Base):
     """Describe the products table"""
@@ -51,7 +34,7 @@ def create_good_from_list(list_of_good):
 
     query = session.query(Goods).filter(Goods.name == list_of_good[0]).all()
     if query:
-        logger.info(f'Error. Name "{list_of_good[0]}" is in the database.')
+        logger.info(f'Error. An entry with the name "{list_of_good[0]}" already exists in the database.')
     else:
         session.add(Goods(name=list_of_good[0], price=list_of_good[1], count=list_of_good[2]))
         session.commit()
@@ -78,11 +61,21 @@ def max_min_goods_on_the_list():
     """A function that returns an object with max. and min. at the price."""
     session = Session(bind=engine)
 
-    max_quary = session.query(func.max(Goods.price)).all()
-    min_quary = session.query(func.min(Goods.price)).all()
+    max_quary_value = session.query(func.max(Goods.price)).all()
+    max_quary = session.query(Goods).filter(Goods.price == max_quary_value[0][0]).all()
+    min_quary_value = session.query(func.min(Goods.price)).all()
+    min_quary = session.query(Goods).filter(Goods.price == min_quary_value[0][0]).all()
+
+    result_list = []
+
+    for row in max_quary:
+        result_list.append([row.name, row.price, row.count])
+
+    for row in min_quary:
+        result_list.append([row.name, row.price, row.count])
 
     logger.info("Была запущена функция мах-мин")
-    return [max_quary[0][0], min_quary[0][0]]
+    return [max_quary_value[0][0], min_quary_value[0][0], result_list]
 
 
 def show_the_entire_list():
@@ -90,30 +83,36 @@ def show_the_entire_list():
     session = Session(bind=engine)
 
     all_quary = session.query(Goods).all()
-    logger.info("Show to the entire list.")
-    return all_quary
+
+    result_list = []
+
+    for row in all_quary:
+        result_list.append([row.name, row.price, row.count])
+
+    logger.debug("Show to the entire list.")
+    return result_list
 
 
 def clean_db():
     """Function of complete cleaning of the database"""
     for row in show_the_entire_list():
-        delete_goods_from_list(row.name)
-    return 'INFO. The database has been completely cleared.'
+        delete_goods_from_list(row[0])
+    logger.debug('function "clean_db" worked')
 
 
-def db_in_json():
+def db_in_json(file_way):
+    """Function of outputting data from the database to a file in JSON format"""
     data_json = show_the_entire_list()
     pre_json_list = []
-    for i in data_json:
+    for row in data_json:
         pre_json_list.append({
             "Good":
                 {
-                    "name": i.name,
-                    "price": i.price,
-                    "count": i.count
+                    "name": row[0],
+                    "price": row[1],
+                    "count": row[2]
                 }
         })
-    with open('../db_in_json.json', 'w', encoding="utf-8") as file:
+    with open(file_way, 'w', encoding="utf-8") as file:
         json.dump(pre_json_list, file, indent=4, ensure_ascii=False)
-    return 'INFO. JSON file written.'
-
+    logger.debug('function db_in_json worked')

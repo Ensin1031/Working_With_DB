@@ -1,7 +1,4 @@
-'''
-Представление данных, красивое их отображение
-Работаем с Tkinter
-'''
+# coding=UTF-8
 from body.list_goods import list_goods
 import logging
 logger = logging.getLogger('main.' + __name__)
