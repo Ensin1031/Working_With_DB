@@ -2896,3 +2896,9 @@ Traceback (most recent call last):
 ValueError: Test error
 09:02:2022 - 21:19:21 - main.body.model: -> INFO - Table "goods" is create
 09:02:2022 - 21:19:53 - main.body.controller: -> INFO - The database is written in JSON format to the file "json_files/8_db_in_json.json"
+09:02:2022 - 21:25:56 - main.body.model: -> INFO - Table "goods" is create
+09:02:2022 - 21:26:00 - main.body.model: -> ERROR - Wrong type of data entered
+Traceback (most recent call last):
+  File "C:\GitHub_Desktop\Working_With_DB\body\model.py", line 37, in create_good_from_list
+    data_list = [list_of_good[0], int(list_of_good[1]), int(list_of_good[2])]
+ValueError: invalid literal for int() with base 10: 'цена'
