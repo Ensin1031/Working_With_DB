@@ -1,11 +1,11 @@
 # coding=UTF-8
 import tkinter as tk
-from body.view_setwindow import setwindow
+import body.view as view
 from functools import partial
-from body.model import create_good_from_list, delete_goods_from_list
 import body.controller as cont
 
 import logging
+
 logger = logging.getLogger('main.' + __name__)
 
 
@@ -36,65 +36,66 @@ class MainWindow(tk.Frame):
 
     def __enter_data(self):
         """Enter initial date in DB"""
-        cont.primary_data()
+        cont.Controllers().primary_data()
         self.lable_exit.config(text='Первоначальные данные в базу былы добавлены')
         logger.debug('MainWindow.__enter_data. Initial data has been added to the database.')
-        self.__output_frame(cont.result_list())
+        self.__output_frame(cont.Controllers().result_list())
 
     def __enter_user_data(self):
         """Function for adding users data"""
-        try:
-            user_data_list = [self.add_enter_name.get(), int(self.add_enter_price.get()),
-                              int(self.add_enter_count.get())]
-        except Exception:
-            self.lable_exit.config(text='Введите корректные данные: price и count должны иметь числовые значения')
-            logger.exception('Wrong type of data entered')
-        else:
-            create_good_from_list(user_data_list)
+        user_data_list = [self.add_enter_name.get(), self.add_enter_price.get(), self.add_enter_count.get()]
+
+        response = cont.Controllers().create_user_good(user_data_list)
+
+        if response == '1':
+            self.lable_exit.config(text=f'Продукт с именем "{user_data_list[0]}" уже есть в таблице')
+        elif response:
             self.lable_exit.config(text=f'Ваш продукт "{user_data_list[0]}" добавлен в таблицу')
-        self.__output_frame(cont.result_list())
+        else:
+            self.lable_exit.config(text='Введите корректные данные: price и count должны иметь числовые значения')
+
+        self.__output_frame(cont.Controllers().result_list())
 
     def __del_by_name(self):
         """A function to delete data from a table by name."""
         data = self.add_deleting_name.get()
-        resp = delete_goods_from_list(data)
+        resp = cont.Controllers().del_data(data)
         if resp:
             self.lable_exit.config(text=f'Продукт с именем "{data}" удален из таблицы')
         else:
             self.lable_exit.config(text=f'Продукт с именем "{data}" отсутствует в таблице')
-        self.__output_frame(cont.result_list())
+        self.__output_frame(cont.Controllers().result_list())
 
     def __max_min_values(self):
         """Function of max and min values"""
-        data = cont.max_min_func()
-        if data == False:
+        data = cont.Controllers().max_min_func()
+        if not data:
             self.lable_exit.config(text='БД пуста, откуда тут возьмутся максимальные или минимальные значения?!')
         else:
-            self.lable_exit.config(text=f'Максимальное значение поля "цена" = "{data[0]}", минимальное = "{data[1]}"')
-            self.__output_frame(data[2])
+            self.lable_exit.config(
+                text=f'Максимальное значение поля "цена" = "{data["max_value"]}", минимальное = "{data["min_value"]}"')
+            self.__output_frame(data['result_list'])
 
     def __clean_db(self):
         """Function of completely deleting data from the database."""
-        if cont.clear_db_func():
+        if cont.Controllers().clear_db_func():
             self.lable_exit.config(text='БД теперь полностью пуста.')
         else:
             self.lable_exit.config(text='БД и так полностью пуста, хватит баловаться...')
-        self.__output_frame(cont.result_list())
+        self.__output_frame(cont.Controllers().result_list())
 
     def json_in_file(self):
         """Function of outputting data from the database to a file in JSON format"""
-        data = cont.json_output()
+        data = cont.Controllers().json_output()
         if data:
             self.lable_exit.config(text=f'БД записана в JSON формате в файл "{data}"')
-            self.__output_frame(cont.result_list())
+            self.__output_frame(cont.Controllers().result_list())
         else:
             self.lable_exit.config(text='БД пуста. Нечего выводить в файл....')
-            self.__output_frame(cont.result_list())
+            self.__output_frame(cont.Controllers().result_list())
 
     def __init_window(self):
         """Main window"""
-        setwindow(self.root)
-        self.root.title('Работаем с БД')
         # create frames
         self.user_frame = tk.Frame(self.root, width=785, height=147).place(relx=0.01, rely=0.001)
         self.result_frame = tk.Frame(self.root, width=785, height=430)
@@ -245,12 +246,8 @@ class MainWindow(tk.Frame):
             self.ld.place(relx=0.97, rely=0, anchor='ne')
 
 
-def start_main_window():
-    root = tk.Tk()
-    # raise ValueError('Test error')
-    MainWindow(root)
-    root.mainloop()
-
-
-if __name__ == '__main__':
-    start_main_window()
+# def start_main_window():
+#     root = tk.Tk()
+#     # raise ValueError('Test error')
+#     MainWindow(root)
+#     root.mainloop()

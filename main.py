@@ -2,15 +2,14 @@
 import logging
 import logging.handlers
 
-log_dict_conf = __import__("dictConfig")
+log_dict_conf = __import__("dict_config")
 logger = logging.getLogger('main.' + __name__)
 
-from body.controller import show_main_window
-
+from body.controller import Controllers
 if __name__ == '__main__':
     logger.debug('Start program')
     try:
-        show_main_window()
+        Controllers().show_main_window()
     except Exception:
         logger.exception("Error when starting the main program window")
     logger.debug('Stop program')

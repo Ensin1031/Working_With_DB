@@ -4,6 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
 import json
 import logging
+from os import listdir
 
 logger = logging.getLogger('main.' + __name__)
 
@@ -32,13 +33,21 @@ def create_good_from_list(list_of_good):
     """A function that creates products from a list."""
     session = Session(bind=engine)
 
-    query = session.query(Goods).filter(Goods.name == list_of_good[0]).all()
-    if query:
-        logger.info(f'Error. An entry with the name "{list_of_good[0]}" already exists in the database.')
+    try:
+        data_list = [list_of_good[0], int(list_of_good[1]), int(list_of_good[2])]
+    except Exception:
+        logger.exception('Wrong type of data entered')
+        return False
     else:
-        session.add(Goods(name=list_of_good[0], price=list_of_good[1], count=list_of_good[2]))
-        session.commit()
-        logger.info(f'An entry named "{list_of_good[0]}" has been added in DB.')
+        query = session.query(Goods).filter(Goods.name == data_list[0]).all()
+        if query:
+            logger.info(f'Error. An entry with the name "{data_list[0]}" already exists in the database.')
+            return '1'
+        else:
+            session.add(Goods(name=data_list[0], price=data_list[1], count=data_list[2]))
+            session.commit()
+            logger.info(f'An entry named "{data_list[0]}" has been added in DB.')
+            return True
 
 
 def delete_goods_from_list(name_to_delete):
@@ -54,7 +63,6 @@ def delete_goods_from_list(name_to_delete):
         return True
     else:
         logger.info(f'Error. product named "{name_to_delete}" is not listed.')
-        return False
 
 
 def max_min_goods_on_the_list():
@@ -74,8 +82,14 @@ def max_min_goods_on_the_list():
     for row in min_quary:
         result_list.append([row.name, row.price, row.count])
 
-    logger.info("Была запущена функция мах-мин")
-    return [max_quary_value[0][0], min_quary_value[0][0], result_list]
+    if not result_list:
+        return False
+    if len(result_list) == 2 and result_list[0] == result_list[1]:
+        result = {'max_value': max_quary_value[0][0], 'min_value': min_quary_value[0][0],
+                  'result_list': [result_list[0]]}
+        logger.debug("Function max_min_goods_on_the_list is worked")
+        return result
+    return {'max_value': max_quary_value[0][0], 'min_value': min_quary_value[0][0], 'result_list': result_list}
 
 
 def show_the_entire_list():
@@ -100,19 +114,27 @@ def clean_db():
     logger.debug('function "clean_db" worked')
 
 
-def db_in_json(file_way):
+def db_in_json():
     """Function of outputting data from the database to a file in JSON format"""
     data_json = show_the_entire_list()
     pre_json_list = []
     for row in data_json:
+        name, price, count = row[0], row[1], row[2]
         pre_json_list.append({
             "Good":
                 {
-                    "name": row[0],
-                    "price": row[1],
-                    "count": row[2]
+                    "name": name,
+                    "price": price,
+                    "count": count
                 }
         })
+
+    file_way = 'json_files/{0}_db_in_json.json'.format(len(listdir(path='json_files')))
+
     with open(file_way, 'w', encoding="utf-8") as file:
         json.dump(pre_json_list, file, indent=4, ensure_ascii=False)
     logger.debug('function db_in_json worked')
+
+    if data_json:
+        return file_way
+    return False
