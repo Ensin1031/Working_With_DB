@@ -47,6 +47,5 @@ class ViewForGood:
         x = int(ws / 2 - w / 2)
         y = int(hs / 2 - h / 2)
         root.geometry('{0}x{1}+{2}+{3}'.format(w, h, x, y))
-        # raise ValueError('Test error')
         interfase.MainWindow(root)
         root.mainloop()

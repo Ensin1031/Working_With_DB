@@ -12,10 +12,10 @@ class MaxMinTest(TestCase):
         self.good_02 = create_good_from_list(['lighter_test', 1, 200])
 
     def test_max_price(self):
-        self.assertEqual(max_min_goods_on_the_list()[0], 10000)
+        self.assertEqual(max_min_goods_on_the_list()['max_value'], 10000)
 
     def test_min_price(self):
-        self.assertEqual(max_min_goods_on_the_list()[1], 1)
+        self.assertEqual(max_min_goods_on_the_list()['min_value'], 1)
 
     def tearDown(self):
         delete_goods_from_list('Audi_test')
