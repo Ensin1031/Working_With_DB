@@ -2,7 +2,7 @@
 import logging
 from body.model import create_good_from_list, show_the_entire_list, max_min_goods_on_the_list
 from body.model import delete_goods_from_list, db_in_json, clean_db
-import body.view as view
+import body.view_file as view
 
 logger = logging.getLogger(f'main.{__name__}')
 

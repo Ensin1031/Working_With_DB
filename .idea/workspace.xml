@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f4954d-bd55-4ca1-884d-d8b0fddf0270" name="Changes" comment="main">
-      <change afterPath="$PROJECT_DIR$/json_files/1_db_in_json.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/body/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/body/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/body/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/body/view_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/body/view_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/body/view_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="view" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="view_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Working_With_DB" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +111,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/body/view.py" />
+      <option name="SCRIPT_NAME" value="C:\GitHub_Desktop\Working_With_DB\body\view_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +161,7 @@
         <item itemvalue="Python tests.Python tests in work_test.py" />
         <item itemvalue="Python.model" />
         <item itemvalue="Python.view_interface" />
-        <item itemvalue="Python.view" />
+        <item itemvalue="Python.view_file" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644482592823</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="main">
+      <created>1644484389103</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1644484389103</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

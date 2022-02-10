@@ -1,6 +1,5 @@
 # coding=UTF-8
 import tkinter as tk
-import body.view as view
 from functools import partial
 import body.controller as cont
 
@@ -244,7 +243,6 @@ class MainWindow(tk.Frame):
             self.ln.place(relx=0.01, rely=0)
             self.ls.place(relx=0.6, rely=0, anchor='ne')
             self.ld.place(relx=0.97, rely=0, anchor='ne')
-
 
 # def start_main_window():
 #     root = tk.Tk()
