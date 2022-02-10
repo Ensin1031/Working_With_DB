@@ -3,7 +3,7 @@ import logging
 import logging.handlers
 
 log_dict_conf = __import__("dict_config")
-logger = logging.getLogger('main.' + __name__)
+logger = logging.getLogger(f'main.{__name__}')
 
 from body.controller import Controllers
 if __name__ == '__main__':

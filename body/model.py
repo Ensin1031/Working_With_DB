@@ -6,7 +6,7 @@ import json
 import logging
 from os import listdir
 
-logger = logging.getLogger('main.' + __name__)
+logger = logging.getLogger(f'main.{__name__}')
 
 # engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", echo=True, future=True, max_overflow=20)
 engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", future=True, max_overflow=20)

@@ -6,7 +6,7 @@ import body.controller as cont
 
 import logging
 
-logger = logging.getLogger('main.' + __name__)
+logger = logging.getLogger(f'main.{__name__}')
 
 
 class MainWindow(tk.Frame):

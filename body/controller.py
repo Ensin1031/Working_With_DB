@@ -4,7 +4,7 @@ from body.model import create_good_from_list, show_the_entire_list, max_min_good
 from body.model import delete_goods_from_list, db_in_json, clean_db
 import body.view as view
 
-logger = logging.getLogger('main.' + __name__)
+logger = logging.getLogger(f'main.{__name__}')
 
 
 class Controllers:
