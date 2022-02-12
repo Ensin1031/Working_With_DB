@@ -14,7 +14,7 @@ engine = create_engine(f"{c_s['sdb_d']}://"
                        f"{c_s['pass_user']}@"
                        f"{c_s['host_db']}/"
                        f"{c_s['db_name']}",
-                       #echo=True,
+                       # echo=True,
                        future=True,
                        max_overflow=20
                        )
