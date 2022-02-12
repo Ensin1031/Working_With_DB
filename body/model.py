@@ -2,14 +2,23 @@
 from sqlalchemy import create_engine, Integer, String, Column, func
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
+from body.conn_set import connection_settings as c_s
 import json
 import logging
 from os import listdir
 
 logger = logging.getLogger(f'main.{__name__}')
 
-# engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", echo=True, future=True, max_overflow=20)
-engine = create_engine("postgresql+psycopg2://postgres:12345@127.0.0.1/learns", future=True, max_overflow=20)
+engine = create_engine(f"{c_s['sdb_d']}://"
+                       f"{c_s['name_user']}:"
+                       f"{c_s['pass_user']}@"
+                       f"{c_s['host_db']}/"
+                       f"{c_s['db_name']}",
+                       #echo=True,
+                       future=True,
+                       max_overflow=20
+                       )
+
 Base = declarative_base()
 
 

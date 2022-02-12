@@ -243,9 +243,3 @@ class MainWindow(tk.Frame):
             self.ln.place(relx=0.01, rely=0)
             self.ls.place(relx=0.6, rely=0, anchor='ne')
             self.ld.place(relx=0.97, rely=0, anchor='ne')
-
-# def start_main_window():
-#     root = tk.Tk()
-#     # raise ValueError('Test error')
-#     MainWindow(root)
-#     root.mainloop()
